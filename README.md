@@ -47,7 +47,7 @@ logs/                 evidências de execução sem modelos ou binários
 manifests/            hashes SHA-256 dos artefatos
 ```
 
-Consulte [docs/README.md](docs/README.md) para a relação entre os artefatos e as seções do Capítulo 5. A estrutura `research/` e `logs/` foi preservada porque os notebooks e exportadores usam esses caminhos relativos.
+Consulte [docs/README.md](docs/README.md) para localizar os arquivos correspondentes a cada uma das seis etapas metodológicas. A estrutura `research/` e `logs/` foi preservada porque os notebooks e exportadores usam esses caminhos relativos.
 
 ## Reprodutibilidade
 
