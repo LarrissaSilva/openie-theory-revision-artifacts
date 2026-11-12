@@ -1,0 +1,26 @@
+1	O	_	DET	DET	_	0	null	_	_
+2	mundo	_	NOUN	NOUN	_	0	null	_	_
+3	pode	_	AUX	AUX	_	0	null	_	_
+4	estar	_	VERB	VERB	_	0	null	_	_
+5	enfurecido	_	ADJ	ADJ	_	0	null	_	_
+6	e	_	CONJ	CONJ	_	0	null	_	_
+7	absurdo	_	ADJ	ADJ	_	0	null	_	_
+8	-	_	PUNCT	.	_	0	null	_	_
+9	en	en	ADP	ADP	_	0	null	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	null	_	_
+11	entanto	_	ADV	ADV	_	0	null	_	_
+12	por	por	ADP	ADP	_	0	null	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	null	_	_
+14	menos	_	ADV	ADV	_	0	null	_	_
+15	alguém	_	PRON	PRON	_	0	null	_	_
+16	tem	_	VERB	VERB	_	0	null	_	_
+17	dignidade	_	NOUN	NOUN	_	0	null	_	_
+18	para	_	ADP	ADP	_	0	null	_	_
+19	continuar	_	VERB	VERB	_	0	null	_	_
+20	a	_	DET	DET	_	0	null	_	_
+21	protestar	_	NOUN	NOUN	_	0	null	_	_
+22	contra	_	ADP	ADP	_	0	null	_	_
+23	esse	_	DET	DET	_	0	null	_	_
+24	fato	_	NOUN	NOUN	_	0	null	_	_
+25	.	_	PUNCT	.	_	0	null	_	_
+

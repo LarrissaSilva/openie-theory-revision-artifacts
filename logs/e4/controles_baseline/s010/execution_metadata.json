@@ -1,0 +1,91 @@
+{
+  "execution_type": "e4_non_application_candidate_baseline",
+  "case_ids": ["S010-A51", "S010-A52"],
+  "source": {
+    "workbook": "research/experimento/semana5_experimento_OIEC_PT_GOLD (3)(1).xlsx",
+    "sheet": "analise",
+    "rows": [51, 52],
+    "column": "sentenca_original"
+  },
+  "branch": "modelagem-graph-rewriting-e4",
+  "commit": "67a62a72bfa16a98f0a6422bde670bab3a834459",
+  "jar": {
+    "type": "distributed_original",
+    "path": "../../../../DptOIE.jar",
+    "size_bytes": 8607253,
+    "sha256": "5ff8246cc170537ce7ccb7e1640872564b1534f2ab6c0dbb00ea264468b36d52"
+  },
+  "not_used_jar": {
+    "type": "instrumented_current_target",
+    "path": "../../../../target/ExtraiClausulas-1.0-SNAPSHOT-jar-with-dependencies.jar",
+    "sha256": "3c4b9a72dafe03c41045367be437c638eabeb9e71a1bf2edab7ce329c826290d"
+  },
+  "java": {
+    "distribution": "Eclipse Temurin",
+    "version": "1.8.0_504",
+    "executable": "../../../../.local-tools/java8/jdk8u504-b01/bin/java.exe"
+  },
+  "models": {
+    "pos": {
+      "path": "pt-models/pt-pos-tagger.model",
+      "size_bytes": 7663538,
+      "sha256": "3025001fb828b7bb73b7f7de6cf6e303126e23aa4f175c8e7f1ad69988a8635b"
+    },
+    "dependency": {
+      "path": "pt-models/pt-dep-parser.gz",
+      "size_bytes": 106097068,
+      "sha256": "341e6b5bfc2288b8e7991ee746b2517b02dfb2ef7e540b3666f2b969bd4db30d",
+      "source": "official model link documented by the DptOIE README"
+    }
+  },
+  "parameters": {
+    "CC": false,
+    "SC": false,
+    "appositive": 0
+  },
+  "sentence": "Eu visitei os espetáculos universitários na Universidade de Northampton para encontrar novos talentos, diz ele.",
+  "input_file": "s010_sentences.txt",
+  "run_count": 1,
+  "started_at_utc": "2026-10-28T01:21:34.845Z",
+  "finished_at_utc": "2026-10-28T01:23:07.515Z",
+  "exit_code": 0,
+  "outputs": {
+    "input": {
+      "path": "s010_sentences.txt",
+      "size_bytes": 114,
+      "sha256": "1cb8ffe5a81ef84ed228bc9fbe649a72086b74b3faa4c5647120878cfa341845"
+    },
+    "stdout": {
+      "path": "stdout.txt",
+      "size_bytes": 1054,
+      "sha256": "977986e946b7f29805a27487900bb44b8360b6a84b088277f4690907e4804883"
+    },
+    "stderr": {
+      "path": "stderr.txt",
+      "size_bytes": 179,
+      "sha256": "6717f012d12e354d2433bdc32bbc80f87b5ca364f0bb6b6f2be5504bc469d132"
+    },
+    "extracted_facts": {
+      "path": "extractedFactsByDpOIE.csv",
+      "size_bytes": 1000,
+      "sha256": "21f4e1f047e1d9fa4cc4ff05049201e93e2b944c6deab8fff9551069a35e3736",
+      "encoding": "Windows-1252",
+      "extraction_count": 6
+    },
+    "tokenized_sentences": {
+      "path": "output/tokenized_sentences",
+      "size_bytes": 118,
+      "sha256": "7c1e88661775d297a26fac6158a2a9c5e664fd16768522cfd029faffd4a73619"
+    },
+    "dependency_parser_input": {
+      "path": "output/imput_DP.txt",
+      "size_bytes": 667,
+      "sha256": "6c5e0f9ff89271c16b92f5f4601cf94a960a3ee939f62247078eb6f21788e1c8"
+    },
+    "dependency_parser_output": {
+      "path": "output/output_DP.conll",
+      "size_bytes": 621,
+      "sha256": "c3aaab2679596c96ca24e51896134ef572d7f963946c0af5c16ae50c4f4e5cfe"
+    }
+  }
+}

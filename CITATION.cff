@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Se você utilizar estes artefatos, cite este repositório e a tese ou publicação associada."
+title: "OpenIE Theory Revision Artifacts: estudo piloto da regra E4 no DptOIE"
+type: software
+authors:
+  - family-names: "Silva"
+    given-names: "Larrissa"
+version: "0.1.0-qualification"
+date-released: "2026-11-11"
+repository-code: "https://github.com/LarrissaSilva/openie-theory-revision-artifacts"
+url: "https://github.com/LarrissaSilva/openie-theory-revision-artifacts"
+abstract: >-
+  Artefatos de reprodução, proveniência, Graph Rewriting e Theory Revision
+  associados ao estudo piloto da regra E4 no extrator DptOIE.
+keywords:
+  - "Open Information Extraction"
+  - "Theory Revision"
+  - "Graph Rewriting"
+  - "provenance"
+  - "Portuguese"
+  - "DptOIE"

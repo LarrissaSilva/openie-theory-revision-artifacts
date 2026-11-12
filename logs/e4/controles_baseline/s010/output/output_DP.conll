@@ -1,0 +1,19 @@
+1	Eu	_	PRON	PRON	_	2	nsubj	_	_
+2	visitei	_	VERB	VERB	_	0	root	_	_
+3	os	_	DET	DET	_	4	det	_	_
+4	espetáculos	_	NOUN	NOUN	_	2	obj	_	_
+5	universitários	_	ADJ	ADJ	_	4	amod	_	_
+6	en	_	ADP	ADP	_	8	case	_	_
+7	a	_	DET	DET	_	8	det	_	_
+8	Universidade	_	PNOUN	PNOUN	_	2	nmod	_	_
+9	de	_	ADP	ADP	_	10	case	_	_
+10	Northampton	_	PNOUN	PNOUN	_	8	nmod	_	_
+11	para	_	ADP	ADP	_	12	mark	_	_
+12	encontrar	_	VERB	VERB	_	2	nmod	_	_
+13	novos	_	ADJ	ADJ	_	14	amod	_	_
+14	talentos	_	NOUN	NOUN	_	12	obj	_	_
+15	,	_	.	.	_	16	punct	_	_
+16	diz	_	VERB	VERB	_	2	acl:part	_	_
+17	ele	_	PRON	PRON	_	16	nsubj	_	_
+18	.	_	.	.	_	2	punct	_	_
+

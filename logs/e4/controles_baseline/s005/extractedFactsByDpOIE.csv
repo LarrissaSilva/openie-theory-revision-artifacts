@@ -1,0 +1,6 @@
+ "ID SENTENÇA" ; "SENTENÇA" ; "ID EXTRAÇÃO" ; "ARG1" ; "REL" ; "ARG2" ; "COERÊNCIA" ; "MINIMALIDADE" ; "MÓDULO SUJEITO" ; "MÓDULO RELAÇÃO" ; "MÓDULO ARG2";
+"1";"O mundo pode estar enfurecido e absurdo - en o entanto por o menos alguém tem dignidade para continuar a protestar contra esse fato . ";"1.0";"O mundo ";" pode estar";"enfurecido - e absurdo en o entanto ";"";"";"1";"1";"1";
+"";"";"2.0";"alguém ";" tem";"dignidade ";"";"";"1";"1";"1";
+"";"";"3.0";"alguém ";" tem";"dignidade para continuar a protestar contra esse fato ";"";"";"1";"1";"1";
+"";"";"4.0";"alguém ";" tem";"dignidade por o menos ";"";"";"1";"1";"1";
+"2";"";"";"";"";"";"";"";"";"";

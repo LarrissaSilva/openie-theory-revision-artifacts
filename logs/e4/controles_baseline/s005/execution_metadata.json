@@ -1,0 +1,91 @@
+{
+  "execution_type": "e4_non_application_candidate_baseline",
+  "case_ids": ["S005-A28"],
+  "source": {
+    "workbook": "research/experimento/semana5_experimento_OIEC_PT_GOLD (3)(1).xlsx",
+    "sheet": "analise",
+    "rows": [28],
+    "column": "sentenca_original"
+  },
+  "branch": "modelagem-graph-rewriting-e4",
+  "commit": "67a62a72bfa16a98f0a6422bde670bab3a834459",
+  "jar": {
+    "type": "distributed_original",
+    "path": "../../../../DptOIE.jar",
+    "size_bytes": 8607253,
+    "sha256": "5ff8246cc170537ce7ccb7e1640872564b1534f2ab6c0dbb00ea264468b36d52"
+  },
+  "not_used_jar": {
+    "type": "instrumented_current_target",
+    "path": "../../../../target/ExtraiClausulas-1.0-SNAPSHOT-jar-with-dependencies.jar",
+    "sha256": "3c4b9a72dafe03c41045367be437c638eabeb9e71a1bf2edab7ce329c826290d"
+  },
+  "java": {
+    "distribution": "Eclipse Temurin",
+    "version": "1.8.0_504",
+    "executable": "../../../../.local-tools/java8/jdk8u504-b01/bin/java.exe"
+  },
+  "models": {
+    "pos": {
+      "path": "pt-models/pt-pos-tagger.model",
+      "size_bytes": 7663538,
+      "sha256": "3025001fb828b7bb73b7f7de6cf6e303126e23aa4f175c8e7f1ad69988a8635b"
+    },
+    "dependency": {
+      "path": "pt-models/pt-dep-parser.gz",
+      "size_bytes": 106097068,
+      "sha256": "341e6b5bfc2288b8e7991ee746b2517b02dfb2ef7e540b3666f2b969bd4db30d",
+      "source": "official model link documented by the DptOIE README"
+    }
+  },
+  "parameters": {
+    "CC": false,
+    "SC": false,
+    "appositive": 0
+  },
+  "sentence": "O mundo pode estar enfurecido e absurdo - no entanto pelo menos alguém tem dignidade para continuar a protestar contra esse fato.",
+  "input_file": "s005_sentences.txt",
+  "run_count": 1,
+  "started_at_utc": "2026-10-28T01:18:15.019Z",
+  "finished_at_utc": "2026-10-28T01:20:00.711Z",
+  "exit_code": 0,
+  "outputs": {
+    "input": {
+      "path": "s005_sentences.txt",
+      "size_bytes": 131,
+      "sha256": "c37e36f51a45cb2e37a10ebece791be2d407abb6eebe456c78904feb3d30c5ad"
+    },
+    "stdout": {
+      "path": "stdout.txt",
+      "size_bytes": 757,
+      "sha256": "fbd67b6779a8ed6606becf15733e6894115cef6d5306271d32b3bf9b4954d9ba"
+    },
+    "stderr": {
+      "path": "stderr.txt",
+      "size_bytes": 179,
+      "sha256": "6717f012d12e354d2433bdc32bbc80f87b5ca364f0bb6b6f2be5504bc469d132"
+    },
+    "extracted_facts": {
+      "path": "extractedFactsByDpOIE.csv",
+      "size_bytes": 663,
+      "sha256": "b7463406760fb182ea262cd02e037249e7732cc1252920f73e466df67e726b93",
+      "encoding": "Windows-1252",
+      "extraction_count": 4
+    },
+    "tokenized_sentences": {
+      "path": "output/tokenized_sentences",
+      "size_bytes": 136,
+      "sha256": "b367c75e61bad3ff7db08e4607837b673907631013864b8db1907e6ea9a2acd2"
+    },
+    "dependency_parser_input": {
+      "path": "output/imput_DP.txt",
+      "size_bytes": 920,
+      "sha256": "745fa03fe9ef00822403e3b9878b0b5562c57db95521eb042d6e13af4eb73d75"
+    },
+    "dependency_parser_output": {
+      "path": "output/output_DP.conll",
+      "size_bytes": 827,
+      "sha256": "49335c1eb391b21f55b6c44a956bfbfcc15ae968e75eb511f364e8a16a20ec2d"
+    }
+  }
+}

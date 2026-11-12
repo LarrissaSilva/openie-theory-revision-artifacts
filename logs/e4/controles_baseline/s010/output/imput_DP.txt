@@ -1,0 +1,19 @@
+1	Eu	_	PRON	PRON	_	0	null	_	_
+2	visitei	_	VERB	VERB	_	0	null	_	_
+3	os	_	DET	DET	_	0	null	_	_
+4	espetáculos	_	NOUN	NOUN	_	0	null	_	_
+5	universitários	_	ADJ	ADJ	_	0	null	_	_
+6	en	en	ADP	ADP	_	0	null	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	null	_	_
+8	Universidade	_	PROPN	PNOUN	_	0	null	_	_
+9	de	_	ADP	ADP	_	0	null	_	_
+10	Northampton	_	PROPN	PNOUN	_	0	null	_	_
+11	para	_	ADP	ADP	_	0	null	_	_
+12	encontrar	_	VERB	VERB	_	0	null	_	_
+13	novos	_	ADJ	ADJ	_	0	null	_	_
+14	talentos	_	NOUN	NOUN	_	0	null	_	_
+15	,	_	PUNCT	.	_	0	null	_	_
+16	diz	_	VERB	VERB	_	0	null	_	_
+17	ele	_	PRON	PRON	_	0	null	_	_
+18	.	_	PUNCT	.	_	0	null	_	_
+

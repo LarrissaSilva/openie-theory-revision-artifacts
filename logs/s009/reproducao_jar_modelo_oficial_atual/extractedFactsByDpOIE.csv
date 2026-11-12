@@ -1,0 +1,9 @@
+ "ID SENTENÇA" ; "SENTENÇA" ; "ID EXTRAÇÃO" ; "ARG1" ; "REL" ; "ARG2" ; "COERÊNCIA" ; "MINIMALIDADE" ; "MÓDULO SUJEITO" ; "MÓDULO RELAÇÃO" ; "MÓDULO ARG2";
+"1";"Catalano voltou para a área depois de viver em Londres e em Glasgow , onde estudou design de jóias en a Glasgow School of Art . ";"1.0";"Catalano ";" voltou";"para a área ";"";"";"1";"1";"1";
+"";"";"2.0";"Catalano ";" voltou";"para a área depois de viver em Londres ";"";"";"1";"1";"1";
+"";"";"3.0";"Catalano ";" voltou";"para a área depois de viver em Londres e em Glasgow , onde estudou design de jóias ";"";"";"1";"1";"1";
+"";"";"4.0";"Catalano ";" voltou";"para a área depois de viver em Londres e em Glasgow , onde estudou design de jóias en a Glasgow School of Art ";"";"";"1";"1";"1";
+"";"";"5.0";"Catalano ";" voltou";"depois de viver em Londres ";"";"";"1";"1";"0";
+"";"";"6.0";"Catalano ";" voltou";"depois de viver e em Glasgow , onde estudou design de jóias ";"";"";"1";"1";"0";
+"";"";"7.0";"Catalano ";" voltou";"depois de viver e em Glasgow , onde estudou en a Glasgow School of Art ";"";"";"1";"1";"0";
+"2";"";"";"";"";"";"";"";"";"";

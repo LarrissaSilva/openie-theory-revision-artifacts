@@ -1,0 +1,7 @@
+ "ID SENTENÇA" ; "SENTENÇA" ; "ID EXTRAÇÃO" ; "ARG1" ; "REL" ; "ARG2" ; "COERÊNCIA" ; "MINIMALIDADE" ; "MÓDULO SUJEITO" ; "MÓDULO RELAÇÃO" ; "MÓDULO ARG2";
+"1";"Um avanço rápido para 2016 e isso é cada vez mais digno de atenção . ";"1.0";"Um avanço ";" rápido";"para 2016 ";"";"";"1";"1";"1";
+"";"";"2.0";"Um avanço ";" rápido";"para 2016 e isso é cada vez mais digno de atenção ";"";"";"1";"1";"1";
+"";"";"3.0";"Um avanço ";" rápido";"e isso é cada vez mais digno de atenção ";"";"";"1";"1";"0";
+"";"";"4.0";"isso ";" é cada vez";"mais digno de atenção ";"";"";"1";"1";"1";
+"";"";"5.0";"isso ";" é";"cada vez mais digno de atenção ";"";"";"1";"5";"1";
+"2";"";"";"";"";"";"";"";"";"";

@@ -1,0 +1,55 @@
+{
+  "type": "instrumented_source_trace_on_provenance_experiment",
+  "commit": "3da8e3a19df753760c3a9eecb3ef9150e5f5edd3",
+  "instrumentation_commit": "db6af3e90c9a99ad2a61f6f0327e89503aeb63cc",
+  "jar": {
+    "path": "target/ExtraiClausulas-1.0-SNAPSHOT-jar-with-dependencies.jar",
+    "size_bytes": 24439265,
+    "sha256": "3c4b9a72dafe03c41045367be437c638eabeb9e71a1bf2edab7ce329c826290d",
+    "sha256_verified_before_execution": true
+  },
+  "java": "Eclipse Temurin 1.8.0_504",
+  "trace_property": "-Ddptoie.e4trace=true",
+  "trace_enabled": true,
+  "models": {
+    "pt-pos-tagger.model": "3025001fb828b7bb73b7f7de6cf6e303126e23aa4f175c8e7f1ad69988a8635b",
+    "pt-dep-parser.gz": "341e6b5bfc2288b8e7991ee746b2517b02dfb2ef7e540b3666f2b969bd4db30d"
+  },
+  "parameters": {
+    "CC": false,
+    "SC": false,
+    "appositive": 0
+  },
+  "sentence": "Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.",
+  "command": "java -Ddptoie.e4trace=true -jar ../../../target/ExtraiClausulas-1.0-SNAPSHOT-jar-with-dependencies.jar -sentencesIN s009_sentences.txt -CC false -SC false -appositive 0",
+  "started_at_utc": "2026-10-16T13:54:21.2396360Z",
+  "finished_at_utc": "2026-10-16T13:55:00.8109382Z",
+  "exit_code": 0,
+  "execution_count": 1,
+  "outputs": {
+    "s009_sentences.txt": "765ffcf53b5ef92e10ab5caa78096b81431b03cdebdef55fd8575e0201c5d5f0",
+    "stdout.txt": "d095c247e0c53db22786153d2c3cd2a87f40f1e0780b402b3f12b22c633c0116",
+    "stderr.txt": "af64877039c327775ae0e4ac2f18630028297fb1d2c66325c9f3465276a60b4e",
+    "e4trace.txt": "07763b43bf70fd991047d6cd5d2c45d364a9c7990e4ef19ebfeee5b10b3f306c",
+    "extractedFactsByDpOIE.csv": "3925c116c3ad9f4dd7d08d459b3e59e534a3ba8944216d14566c8af52d0197b6",
+    "output/tokenized_sentences": "29c87903ebd187d60cd684a62d7d0db0acdd8a2de439b3bb79c59145d3b2c73b",
+    "output/imput_DP.txt": "b52abc037f84d53f7409b6c6fc38ac6ea08b0fbb028fd58766bcf1681d60425b",
+    "output/output_DP.conll": "e94d708cef67efaa363a7fdb9e646e4fa39bc3c379e871923bf3631e96e2967f"
+  },
+  "trace": {
+    "line_count": 133,
+    "first_seq": 1,
+    "last_seq": 133,
+    "strictly_monotonic_contiguous_sequence": true
+  },
+  "functional_validation_against_trace_off": {
+    "exit_code_equal": true,
+    "extraction_count": 7,
+    "pilot_extraction_present": true,
+    "csv_byte_identical": true,
+    "tokenized_sentences_byte_identical": true,
+    "imput_DP_byte_identical": true,
+    "output_DP_conll_byte_identical": true,
+    "functional_difference_found": false
+  }
+}

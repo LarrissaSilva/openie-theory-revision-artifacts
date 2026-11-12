@@ -1,0 +1,18 @@
+Creating Tokenized Sentences File...
+Tokenized sentence file created
+Creating input file for Dependency Parser...
+Input file for DependencyParser created.
+Loading Dependency Parser in memory...
+Executing Dependency Parser from Sentences...
+Execution of Dependency Parser completed.
+Índice sentença 0
+--------------------------------------------------
+Um avanço  |||  rápido ||| para 2016 
+Um avanço  |||  rápido ||| para 2016 e isso é cada vez mais digno de atenção 
+Um avanço  |||  rápido ||| e isso é cada vez mais digno de atenção 
+isso  |||  é cada vez ||| mais digno de atenção 
+isso  |||  é ||| cada vez mais digno de atenção 
+--------------------------------------------------
+Índice sentença 1
+--------------------------------------------------
+--------------------------------------------------

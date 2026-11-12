@@ -1,0 +1,27 @@
+1	Catalano	_	PNOUN	PNOUN	_	2	nsubj	_	_
+2	voltou	_	VERB	VERB	_	0	root	_	_
+3	para	_	ADP	ADP	_	5	case	_	_
+4	a	_	DET	DET	_	5	det	_	_
+5	área	_	NOUN	NOUN	_	2	nmod	_	_
+6	depois	_	ADV	ADV	_	8	mark	_	_
+7	de	_	ADP	ADP	_	6	fixed	_	_
+8	viver	_	VERB	VERB	_	2	advcl	_	_
+9	em	_	ADP	ADP	_	10	case	_	_
+10	Londres	_	PNOUN	PNOUN	_	8	nmod	_	_
+11	e	_	CONJ	CONJ	_	13	cc	_	_
+12	em	_	ADP	ADP	_	13	case	_	_
+13	Glasgow	_	PNOUN	PNOUN	_	8	conj	_	_
+14	,	_	.	.	_	16	punct	_	_
+15	onde	_	ADV	ADV	_	16	advmod	_	_
+16	estudou	_	VERB	VERB	_	13	acl:relcl	_	_
+17	design	_	NOUN	NOUN	_	16	obj	_	_
+18	de	_	ADP	ADP	_	19	case	_	_
+19	jóias	_	NOUN	NOUN	_	17	nmod	_	_
+20	en	_	ADP	ADP	_	22	case	_	_
+21	a	_	DET	DET	_	22	det	_	_
+22	Glasgow	_	PNOUN	PNOUN	_	16	nmod	_	_
+23	School	_	PNOUN	PNOUN	_	22	flat	_	_
+24	of	_	ADP	ADP	_	25	case	_	_
+25	Art	_	PNOUN	PNOUN	_	22	nmod	_	_
+26	.	_	.	.	_	2	punct	_	_
+

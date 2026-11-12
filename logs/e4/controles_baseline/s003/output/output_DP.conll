@@ -1,0 +1,16 @@
+1	Um	_	DET	DET	_	2	det	_	_
+2	avanço	_	NOUN	NOUN	_	3	nsubj	_	_
+3	rápido	_	VERB	VERB	_	0	root	_	_
+4	para	_	ADP	ADP	_	5	case	_	_
+5	2016	_	NUM	NUM	_	3	nmod	_	_
+6	e	_	CONJ	CONJ	_	10	cc	_	_
+7	isso	_	PRON	PRON	_	10	nsubj	_	_
+8	é	_	VERB	VERB	_	10	cop	_	_
+9	cada	_	DET	DET	_	10	det	_	_
+10	vez	_	NOUN	NOUN	_	3	conj	_	_
+11	mais	_	ADV	ADV	_	12	advmod	_	_
+12	digno	_	ADJ	ADJ	_	10	amod	_	_
+13	de	_	ADP	ADP	_	14	case	_	_
+14	atenção	_	NOUN	NOUN	_	12	nmod	_	_
+15	.	_	.	.	_	3	punct	_	_
+

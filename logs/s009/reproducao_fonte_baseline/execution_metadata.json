@@ -1,0 +1,80 @@
+{
+  "execution_type": "source_built_baseline_reproduction",
+  "methodological_identification": "Reprodução baseline do S009 com o JAR compilado a partir do código-fonte não modificado do DptOIE.",
+  "base_commit": "1a5ef708b1ed0a888aac63a7a4512af3cccad315",
+  "head": "82977595a4908543948daf03fa436fec57cd8793",
+  "build_checkpoint": "82977595a4908543948daf03fa436fec57cd8793",
+  "jar": {
+    "path": "../../../target/ExtraiClausulas-1.0-SNAPSHOT-jar-with-dependencies.jar",
+    "sha256": "8cc9e723dd8a563bfaf82b8bb37ba9ee4223220366d18983503b4d2596615e5e"
+  },
+  "java": {
+    "distribution": "Eclipse Temurin",
+    "version": "1.8.0_504",
+    "executable": "../../../.local-tools/java8/jdk8u504-b01/bin/java.exe"
+  },
+  "models": {
+    "pos": {
+      "path": "pt-models/pt-pos-tagger.model",
+      "sha256": "3025001fb828b7bb73b7f7de6cf6e303126e23aa4f175c8e7f1ad69988a8635b"
+    },
+    "dependency": {
+      "path": "pt-models/pt-dep-parser.gz",
+      "sha256": "341e6b5bfc2288b8e7991ee746b2517b02dfb2ef7e540b3666f2b969bd4db30d"
+    }
+  },
+  "sentence": "Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.",
+  "parameters": {
+    "CC": false,
+    "SC": false,
+    "appositive": 0
+  },
+  "command": "java -jar ../../../target/ExtraiClausulas-1.0-SNAPSHOT-jar-with-dependencies.jar -sentencesIN s009_sentences.txt -CC false -SC false -appositive 0",
+  "started_at_utc": "2026-10-16T04:15:44.175Z",
+  "finished_at_utc": "2026-10-16T04:16:15.398Z",
+  "exit_code": 0,
+  "outputs": {
+    "tokenized_sentences": {
+      "path": "output/tokenized_sentences",
+      "size_bytes": 130,
+      "sha256": "29c87903ebd187d60cd684a62d7d0db0acdd8a2de439b3bb79c59145d3b2c73b"
+    },
+    "dependency_parser_input": {
+      "path": "output/imput_DP.txt",
+      "size_bytes": 911,
+      "sha256": "b52abc037f84d53f7409b6c6fc38ac6ea08b0fbb028fd58766bcf1681d60425b"
+    },
+    "dependency_parser_output": {
+      "path": "output/output_DP.conll",
+      "size_bytes": 877,
+      "sha256": "e94d708cef67efaa363a7fdb9e646e4fa39bc3c379e871923bf3631e96e2967f"
+    },
+    "extracted_facts": {
+      "path": "extractedFactsByDpOIE.csv",
+      "size_bytes": 1130,
+      "sha256": "3925c116c3ad9f4dd7d08d459b3e59e534a3ba8944216d14566c8af52d0197b6"
+    },
+    "stdout": {
+      "path": "stdout.txt",
+      "size_bytes": 1137,
+      "sha256": "d095c247e0c53db22786153d2c3cd2a87f40f1e0780b402b3f12b22c633c0116"
+    },
+    "stderr": {
+      "path": "stderr.txt",
+      "size_bytes": 179,
+      "sha256": "6717f012d12e354d2433bdc32bbc80f87b5ca364f0bb6b6f2be5504bc469d132"
+    }
+  },
+  "comparison_to_distributed_jar_reproduction": {
+    "distributed_exit_code": 0,
+    "source_built_exit_code": 0,
+    "distributed_extraction_count": 7,
+    "source_built_extraction_count": 7,
+    "pilot_extraction_present_in_both": true,
+    "dependency_parser_output_sha256_equal": true,
+    "csv_sha256_equal": false,
+    "csv_data_rows_textually_equal": true,
+    "csv_observed_difference": "Somente a linha de cabeçalho difere na representação de caracteres acentuados; todas as linhas de dados são textualmente iguais quando lidas em Windows-1252.",
+    "classification": "COMPORTAMENTO EQUIVALENTE PARA O CASO PILOTO"
+  }
+}

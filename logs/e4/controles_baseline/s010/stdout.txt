@@ -1,0 +1,19 @@
+Creating Tokenized Sentences File...
+Tokenized sentence file created
+Creating input file for Dependency Parser...
+Input file for DependencyParser created.
+Loading Dependency Parser in memory...
+Executing Dependency Parser from Sentences...
+Execution of Dependency Parser completed.
+Índice sentença 0
+--------------------------------------------------
+Eu  |||  visitei ||| os espetáculos universitários 
+Eu  |||  visitei ||| os espetáculos universitários en a Universidade de Northampton 
+Eu  |||  visitei ||| os espetáculos universitários en a Universidade de Northampton para encontrar novos talentos 
+Eu  |||  visitei ||| os espetáculos universitários en a Universidade de Northampton para encontrar novos talentos , diz 
+Eu  |||  visitei ||| os espetáculos universitários para encontrar novos talentos 
+Eu  |||  visitei ||| os espetáculos universitários , diz 
+--------------------------------------------------
+Índice sentença 1
+--------------------------------------------------
+--------------------------------------------------

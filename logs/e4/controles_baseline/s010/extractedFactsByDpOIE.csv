@@ -1,0 +1,8 @@
+ "ID SENTENÇA" ; "SENTENÇA" ; "ID EXTRAÇÃO" ; "ARG1" ; "REL" ; "ARG2" ; "COERÊNCIA" ; "MINIMALIDADE" ; "MÓDULO SUJEITO" ; "MÓDULO RELAÇÃO" ; "MÓDULO ARG2";
+"1";"Eu visitei os espetáculos universitários en a Universidade de Northampton para encontrar novos talentos , diz ele . ";"1.0";"Eu ";" visitei";"os espetáculos universitários ";"";"";"1";"1";"1";
+"";"";"2.0";"Eu ";" visitei";"os espetáculos universitários en a Universidade de Northampton ";"";"";"1";"1";"1";
+"";"";"3.0";"Eu ";" visitei";"os espetáculos universitários en a Universidade de Northampton para encontrar novos talentos ";"";"";"1";"1";"1";
+"";"";"4.0";"Eu ";" visitei";"os espetáculos universitários en a Universidade de Northampton para encontrar novos talentos , diz ";"";"";"1";"1";"1";
+"";"";"5.0";"Eu ";" visitei";"os espetáculos universitários para encontrar novos talentos ";"";"";"1";"1";"0";
+"";"";"6.0";"Eu ";" visitei";"os espetáculos universitários , diz ";"";"";"1";"1";"0";
+"2";"";"";"";"";"";"";"";"";"";

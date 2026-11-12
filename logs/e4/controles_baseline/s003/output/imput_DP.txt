@@ -1,0 +1,16 @@
+1	Um	_	DET	DET	_	0	null	_	_
+2	avanço	_	NOUN	NOUN	_	0	null	_	_
+3	rápido	_	VERB	VERB	_	0	null	_	_
+4	para	_	ADP	ADP	_	0	null	_	_
+5	2016	_	NUM	NUM	NumType=Card	0	null	_	_
+6	e	_	CONJ	CONJ	_	0	null	_	_
+7	isso	_	PRON	PRON	_	0	null	_	_
+8	é	_	VERB	VERB	_	0	null	_	_
+9	cada	_	DET	DET	_	0	null	_	_
+10	vez	_	NOUN	NOUN	_	0	null	_	_
+11	mais	_	ADV	ADV	_	0	null	_	_
+12	digno	_	ADJ	ADJ	_	0	null	_	_
+13	de	_	ADP	ADP	_	0	null	_	_
+14	atenção	_	NOUN	NOUN	_	0	null	_	_
+15	.	_	PUNCT	.	_	0	null	_	_
+

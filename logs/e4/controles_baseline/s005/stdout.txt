@@ -1,0 +1,17 @@
+Creating Tokenized Sentences File...
+Tokenized sentence file created
+Creating input file for Dependency Parser...
+Input file for DependencyParser created.
+Loading Dependency Parser in memory...
+Executing Dependency Parser from Sentences...
+Execution of Dependency Parser completed.
+Índice sentença 0
+--------------------------------------------------
+O mundo  |||  pode estar ||| enfurecido - e absurdo en o entanto 
+alguém  |||  tem ||| dignidade 
+alguém  |||  tem ||| dignidade para continuar a protestar contra esse fato 
+alguém  |||  tem ||| dignidade por o menos 
+--------------------------------------------------
+Índice sentença 1
+--------------------------------------------------
+--------------------------------------------------

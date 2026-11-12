@@ -1,0 +1,38 @@
+{
+  "type": "instrumented_source_trace_off_reproduction",
+  "commit": "db6af3e90c9a99ad2a61f6f0327e89503aeb63cc",
+  "jar": {
+    "path": "target/ExtraiClausulas-1.0-SNAPSHOT-jar-with-dependencies.jar",
+    "size_bytes": 24439265,
+    "sha256": "3c4b9a72dafe03c41045367be437c638eabeb9e71a1bf2edab7ce329c826290d"
+  },
+  "java": "Eclipse Temurin 1.8.0_504",
+  "trace_property_supplied": false,
+  "trace_enabled": false,
+  "models": {
+    "pt-pos-tagger.model": "3025001fb828b7bb73b7f7de6cf6e303126e23aa4f175c8e7f1ad69988a8635b",
+    "pt-dep-parser.gz": "341e6b5bfc2288b8e7991ee746b2517b02dfb2ef7e540b3666f2b969bd4db30d"
+  },
+  "parameters": {
+    "CC": false,
+    "SC": false,
+    "appositive": 0
+  },
+  "sentence": "Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.",
+  "started_at_utc": "2026-10-16T13:17:35.0475094Z",
+  "finished_at_utc": "2026-10-16T13:17:52.5882216Z",
+  "exit_code": 0,
+  "e4trace_lines": {
+    "stdout": 0,
+    "stderr": 0
+  },
+  "outputs": {
+    "stdout.txt": "4944cf5d2fce601c2a2d9f23318dbc150ea96c4ee69d1227e5857d562748fa3e",
+    "stderr.txt": "85ba2dda1881b81a21ae7e7a90c1b53553c04de96392f1fb97a62df03c9741ca",
+    "extractedFactsByDpOIE.csv": "3925c116c3ad9f4dd7d08d459b3e59e534a3ba8944216d14566c8af52d0197b6",
+    "output/tokenized_sentences": "29c87903ebd187d60cd684a62d7d0db0acdd8a2de439b3bb79c59145d3b2c73b",
+    "output/imput_DP.txt": "b52abc037f84d53f7409b6c6fc38ac6ea08b0fbb028fd58766bcf1681d60425b",
+    "output/output_DP.conll": "e94d708cef67efaa363a7fdb9e646e4fa39bc3c379e871923bf3631e96e2967f"
+  },
+  "capture_note": "stdout.txt and stderr.txt were captured through Windows PowerShell redirection. The trace-off stdout is UTF-16LE and contains replacement characters for accented console text; stderr additionally contains PowerShell NativeCommandError wrapper text. The DptOIE CSV and intermediate output files were not modified and are byte-identical to the source baseline."
+}

@@ -1,0 +1,13 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.local-tools/
+target/
+pt-models/
+*.jar
+*.class
+*.gz
+.DS_Store
+Thumbs.db
